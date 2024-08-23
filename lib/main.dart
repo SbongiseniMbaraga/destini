@@ -1,7 +1,6 @@
 import 'package:destini/story_brain.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'story.dart';
 
 void main() {
   runApp(
@@ -58,7 +57,7 @@ class _StoryPageState extends State<StoryPage> {
         constraints: const BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Expanded(
                 flex: 12,
